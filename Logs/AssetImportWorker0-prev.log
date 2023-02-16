@@ -1,0 +1,1270 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ru' Physical Memory: 16308 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+G:\Unity\Installs\2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+G:/Unity/Unity/Office
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62764
+Successfully changed project path to: G:/Unity/Unity/Office
+G:/Unity/Unity/Office
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [14464] Host "[IP] 192.168.9.99 [Port] 0 [Flags] 2 [Guid] 2962952705 [EditorId] 2962952705 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-38DBUI6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [14464] Host "[IP] 192.168.9.99 [Port] 0 [Flags] 2 [Guid] 2962952705 [EditorId] 2962952705 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-38DBUI6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 80.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path G:/Unity/Installs/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/Unity/Unity/Office/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 SUPER (ID=0x2187)
+    Vendor:   NVIDIA
+    VRAM:     3955 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'G:/Unity/Installs/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'G:/Unity/Installs/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'G:/Unity/Installs/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: G:/Unity/Installs/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: G:/Unity/Installs/2021.3.16f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: G:/Unity/Installs/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003133 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 81.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.611 seconds
+Domain Reload Profiling:
+	ReloadAssembly (611ms)
+		BeginReloadAssembly (66ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (449ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (103ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (275ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (57ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (81ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (92ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003701 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image G:\Unity\Unity\Office\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\Unity\Unity\Office\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.080 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1081ms)
+		BeginReloadAssembly (214ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (133ms)
+		EndReloadAssembly (756ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (267ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (335ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (213ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3363 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (113.9 KB). Loaded Objects now: 3822.
+Memory consumption went from 116.0 MB to 115.9 MB.
+Total: 3.032800 ms (FindLiveObjects: 0.261700 ms CreateObjectMapping: 0.183700 ms MarkObjects: 2.486600 ms  DeleteObjects: 0.099500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3044.101696 seconds.
+  path: Assets/TumbsMaterial.mat
+  artifactKey: Guid(6d2ef5577b1c96c4297d95b87002398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TumbsMaterial.mat using Guid(6d2ef5577b1c96c4297d95b87002398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41dc877ffbe0e02168459c945f877e8') in 0.256775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 89719.361945 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(29d692529156e7043a23fefba943ab5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(29d692529156e7043a23fefba943ab5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003df3e288e2bda1cf24dc61efe46baa') in 0.259922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 655.100801 seconds.
+  path: Packages/com.unity.testtools.codecoverage/package.json
+  artifactKey: Guid(ba7d60725b0ec604698819352642be89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.testtools.codecoverage/package.json using Guid(ba7d60725b0ec604698819352642be89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ede392239df6bf770ed0fb43b79895') in 0.081840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 95.962539 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Tables/Dark Oak
+  artifactKey: Guid(b7034971824332b4bae08bd05ab7345d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Tables/Dark Oak using Guid(b7034971824332b4bae08bd05ab7345d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e2f862ca4b3ef43b1a04ad65238440d') in 0.021952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010544 seconds.
+  path: Assets/ScifiOfficeLite/Scene/Asset Display.unity
+  artifactKey: Guid(b5888b526e2805241b71e0569dbb76c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scene/Asset Display.unity using Guid(b5888b526e2805241b71e0569dbb76c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b45a59e8734ac797a1426715925df2') in 0.009595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.112744 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Office Interior/Carpet
+  artifactKey: Guid(8381016bd9d0b164c9a14dc2fd45d007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Office Interior/Carpet using Guid(8381016bd9d0b164c9a14dc2fd45d007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b2244174d14f3989cd8a44ba0f3176') in 0.026856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.180694 seconds.
+  path: Assets/ScifiOfficeLite/Scene/Demo/Lightmap-3_comp_light.exr
+  artifactKey: Guid(0d345d9669cf0ee4ab097a2871d2a360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scene/Demo/Lightmap-3_comp_light.exr using Guid(0d345d9669cf0ee4ab097a2871d2a360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f026e4b312881123ce69aa9c26a33b6') in 0.131585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022526 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture set 1
+  artifactKey: Guid(86516899602582d4481afb4cb61cad53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture set 1 using Guid(86516899602582d4481afb4cb61cad53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826a8910523f5c1295229a1b7ea73d46') in 0.005148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015196 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Set Glass
+  artifactKey: Guid(c0204627707595246b8b8364515078f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Set Glass using Guid(c0204627707595246b8b8364515078f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669cdafdb7cc75f3bdd069df97626c39') in 0.004945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.068949 seconds.
+  path: Assets/ScifiOfficeLite/Scripts/DemoDoor.cs
+  artifactKey: Guid(f78b45fc9b1ca7443980bd236eab5946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scripts/DemoDoor.cs using Guid(f78b45fc9b1ca7443980bd236eab5946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2b7184f1a1bc305e28ce203c12b3a1') in 0.006330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020513 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Office Interior/Carpet/Carpet 5.FBX
+  artifactKey: Guid(3815c0f68c7c19f4c9f6edb1bc4f41f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Office Interior/Carpet/Carpet 5.FBX using Guid(3815c0f68c7c19f4c9f6edb1bc4f41f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c6829efda6be401dcd3f56a1139bcb') in 0.794326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.063132 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Chair set/Chair Set _Normal.png
+  artifactKey: Guid(c301906483663cb45ba11e415d7faaba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Chair set/Chair Set _Normal.png using Guid(c301906483663cb45ba11e415d7faaba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b317d57d2673f1c42aa55782778cb37') in 0.127523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020463 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Epoxy Paints/Epoxy Paint Height.tif
+  artifactKey: Guid(cf0c9d1c0ef7296479dd09fbe41afcf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Epoxy Paints/Epoxy Paint Height.tif using Guid(cf0c9d1c0ef7296479dd09fbe41afcf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e073a304aff696a1cbe3e64840f2ace4') in 0.034157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.070933 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Chair set/Type 2/Chair Set T2_Maskmap.png
+  artifactKey: Guid(c46819709275f2b45a12ed860725e6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Chair set/Type 2/Chair Set T2_Maskmap.png using Guid(c46819709275f2b45a12ed860725e6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3cb22b9cb855a642ff299d6ab59ad69') in 0.073327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.070697 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Vase/vase AO.png
+  artifactKey: Guid(b47ee4480a534f749a3f3fea32199509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Vase/vase AO.png using Guid(b47ee4480a534f749a3f3fea32199509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc09296e4973337d4dfc3a57626dc11') in 0.052568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021171 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Tables/Grey Wood/Table Grey Wood Variant.prefab
+  artifactKey: Guid(0926d2a463524f24bafe7ac832056cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Tables/Grey Wood/Table Grey Wood Variant.prefab using Guid(0926d2a463524f24bafe7ac832056cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69328249171ff49671fb094cfb179e51') in 0.380769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.103553 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Carpet/Carpet 2_Diffuse.png
+  artifactKey: Guid(80f847752e3194946af0a46d9247c0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Carpet/Carpet 2_Diffuse.png using Guid(80f847752e3194946af0a46d9247c0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc9293cb7576b082894694740c3af0e') in 0.134400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035004 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture set 1/Table texture set 1_Normal.png
+  artifactKey: Guid(2ecdc09e7c348e640a2c1b78607e4995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture set 1/Table texture set 1_Normal.png using Guid(2ecdc09e7c348e640a2c1b78607e4995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8467f51c1167cedc3282e8569cf567e3') in 0.013092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013541 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Office Interior/Carpet/Carpet 8.FBX
+  artifactKey: Guid(9c356ccbadb302f4c99fbe7879889240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Office Interior/Carpet/Carpet 8.FBX using Guid(9c356ccbadb302f4c99fbe7879889240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ca09810c96c450d917ae0978098a21') in 0.612376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.071968 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture set 3/Table texture set 3_Maskmap.png
+  artifactKey: Guid(2e64feedca71ff74f9e7114fb147a10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture set 3/Table texture set 3_Maskmap.png using Guid(2e64feedca71ff74f9e7114fb147a10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24868ea3455bb679c710a4bbe350b20') in 0.064295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038931 seconds.
+  path: Assets/ScifiOfficeLite/Scene/Demo/Lightmap-1_comp_light.exr
+  artifactKey: Guid(d4f8f3ce2ab2243408ed1a1891d04458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scene/Demo/Lightmap-1_comp_light.exr using Guid(d4f8f3ce2ab2243408ed1a1891d04458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50aa0e55e6696fb3cd59cd88dd643780') in 0.046851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013623 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Lights/Ceiling_lights_lo_Metallic.png
+  artifactKey: Guid(8f99f4b1e01b00d40bcdf199ce700295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Lights/Ceiling_lights_lo_Metallic.png using Guid(8f99f4b1e01b00d40bcdf199ce700295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca528c15f4843b4d3e6b6cc3f0a9a71') in 0.086891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023498 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Office Interior/Carpet/Carpet 10.FBX
+  artifactKey: Guid(96b6fad491af7c541b79798aaa5aa126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Office Interior/Carpet/Carpet 10.FBX using Guid(96b6fad491af7c541b79798aaa5aa126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c4c1bdc946cdb695544814570d2514') in 0.126507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019579 seconds.
+  path: Assets/ScifiOfficeLite/Scene/Demo/Lightmap-3_comp_dir.png
+  artifactKey: Guid(956b1e195a1b1454cb14b37c71337cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scene/Demo/Lightmap-3_comp_dir.png using Guid(956b1e195a1b1454cb14b37c71337cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4a211e156698875063f8e1b0a447db') in 0.042427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.058140 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Techware/Techware_Maskmap.png
+  artifactKey: Guid(05f51dc479b48f6459a012c634a449a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Techware/Techware_Maskmap.png using Guid(05f51dc479b48f6459a012c634a449a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbcdddc281167b0aa6baff8838d63a1f') in 0.082206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.064370 seconds.
+  path: Assets/ScifiOfficeLite/Scene/Demo/Lightmap-0_comp_light.exr
+  artifactKey: Guid(0f054b372c0b92a45ad3f20cb229f8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scene/Demo/Lightmap-0_comp_light.exr using Guid(0f054b372c0b92a45ad3f20cb229f8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc3532b851cf8935dbd5e974ec0e042') in 0.055284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002922 seconds.
+  path: Assets/Office Room.unity
+  artifactKey: Guid(85e3650c3e915d84c9119d9620de63dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Office Room.unity using Guid(85e3650c3e915d84c9119d9620de63dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '832922f3ddba95ec356cf6ac3e7ee3a9') in 0.026302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.124522 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture Set 4/Table texture set 4_Height.png
+  artifactKey: Guid(42751b5e2843be94aafd005839e69ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture Set 4/Table texture set 4_Height.png using Guid(42751b5e2843be94aafd005839e69ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe3df04d44e3733dc956f8fd354fe65a') in 0.066551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.094128 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Doors/Broken Door.prefab
+  artifactKey: Guid(8b2ed08f82f4cea41907e2cf2f8938c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Doors/Broken Door.prefab using Guid(8b2ed08f82f4cea41907e2cf2f8938c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56f0c2ec7c9fbb5b657c2b8e961130b') in 0.247221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001244 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture Set 5
+  artifactKey: Guid(db96f36a55682eb4f9dbeb3d9df60287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture Set 5 using Guid(db96f36a55682eb4f9dbeb3d9df60287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb636e0684871e4ffc8042ce8cf76dd') in 0.309516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.207678 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Wall texture/wall set 1/Wall multiset_Maskmap.png
+  artifactKey: Guid(8cf8823cf44a1524fb31d207065264d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Wall texture/wall set 1/Wall multiset_Maskmap.png using Guid(8cf8823cf44a1524fb31d207065264d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9921ac84f38a44df04aaf86c53a955') in 0.243365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Tables/White Wood
+  artifactKey: Guid(f8077a2372e486e498e5d2f6325c573a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Tables/White Wood using Guid(f8077a2372e486e498e5d2f6325c573a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410f4052ddf38a07a698260bd131432b') in 0.006049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.069047 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Carpet/Carpet 2_Height.png
+  artifactKey: Guid(d1046898117c80b4eaa921847b7a6331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Carpet/Carpet 2_Height.png using Guid(d1046898117c80b4eaa921847b7a6331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d3287d8f19c0a36e628d85f2eda2167') in 0.034165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.124455 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Props/shelf_1001_MetallicSmoothness.png
+  artifactKey: Guid(7d7c4dbd6dba8be408a8bd90fb5bdd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Props/shelf_1001_MetallicSmoothness.png using Guid(7d7c4dbd6dba8be408a8bd90fb5bdd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a50c0c8511bb962890d5b08293e772') in 0.030742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.164081 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Wall texture/Wall set 2/Wall_Multiset_2_Diffuse+Alpha.png
+  artifactKey: Guid(64a0f114f6354944b82483ffbc238017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Wall texture/Wall set 2/Wall_Multiset_2_Diffuse+Alpha.png using Guid(64a0f114f6354944b82483ffbc238017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bce08b47687b1f6e0ad5d2b212687f4') in 0.231952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048076 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Tables/Dark Oak/Table Dark Oak.prefab
+  artifactKey: Guid(10f9753d65559ea4cbd0c4930521130e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Tables/Dark Oak/Table Dark Oak.prefab using Guid(10f9753d65559ea4cbd0c4930521130e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51ceeb2e78e409270af64c7b2a5ebc0') in 0.018646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037190 seconds.
+  path: Assets/ScifiOfficeLite/Scene/Demo/Lightmap-2_comp_light.exr
+  artifactKey: Guid(f99962964a4542d43b9027e1c10b4171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scene/Demo/Lightmap-2_comp_light.exr using Guid(f99962964a4542d43b9027e1c10b4171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f68de5b7afc9baf34bbbe56c90f1751') in 0.035378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040635 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Materials/Ground Mats/Epoxy
+  artifactKey: Guid(03dc28fe3381ea143a039a38e3c19a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Materials/Ground Mats/Epoxy using Guid(03dc28fe3381ea143a039a38e3c19a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3cfb6f482ddb9e9037a6ffbea80194a') in 0.017296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029763 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Interactables and Doors/Mechanical arms/Mechanical arms_Diffuse.png
+  artifactKey: Guid(6fde2ae80dd8b29458632c2a5c051fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Interactables and Doors/Mechanical arms/Mechanical arms_Diffuse.png using Guid(6fde2ae80dd8b29458632c2a5c051fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a09e585fffe07722a9a2a46828da46') in 0.042390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012882 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Lighting/Ceiling Lights
+  artifactKey: Guid(cb13d5c41d29ceb438aaf360d2ca91b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Lighting/Ceiling Lights using Guid(cb13d5c41d29ceb438aaf360d2ca91b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0d4b587252e324c27fa4b27c184453') in 0.035743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003589 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set
+  artifactKey: Guid(74db323cd41b497449a5965b4b718496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set using Guid(74db323cd41b497449a5965b4b718496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e30c1cf1539609b32f81cdfae3de4b79') in 0.005095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.121936 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Wall texture/Wall set 2/Wall_Multiset_2_Normal.png
+  artifactKey: Guid(7e26f6df7c4220a49a4f9c25d5bc0895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Wall texture/Wall set 2/Wall_Multiset_2_Normal.png using Guid(7e26f6df7c4220a49a4f9c25d5bc0895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33da41678f07fec869cd8f0f480e4d6b') in 0.257624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.096693 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Set Glass/Table Glass_Diffuse+Alpha.png
+  artifactKey: Guid(bb1096c4f5ab2984ca76d7c49edb3479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Set Glass/Table Glass_Diffuse+Alpha.png using Guid(bb1096c4f5ab2984ca76d7c49edb3479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ccf2e1646b0f08836d979102aca2c24') in 0.050175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012820 seconds.
+  path: Assets/ScifiOfficeLite/Scene/Demo/ReflectionProbe-0.exr
+  artifactKey: Guid(4b2efb0f662d74a4faddc3d249cc6bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scene/Demo/ReflectionProbe-0.exr using Guid(4b2efb0f662d74a4faddc3d249cc6bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28eafe2cf1c6d08b7c408c579e4be2d1') in 0.143138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000955 seconds.
+  path: Assets/ScifiOfficeLite/Scene/Demo
+  artifactKey: Guid(4fbc12896115ec44baeaee4a16baa653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scene/Demo using Guid(4fbc12896115ec44baeaee4a16baa653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0258aaf52b7e55c04751fea1cd2737d') in 0.004518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.083285 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Lights/Ceiling_lights_lo_Normal.png
+  artifactKey: Guid(fd091fb69c5b4214e913de95c8aa33e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Lights/Ceiling_lights_lo_Normal.png using Guid(fd091fb69c5b4214e913de95c8aa33e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d60b765e98ed997e2402e2a615a371e') in 0.066164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028210 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture set 3/Table texture set 3_Diffuse.png
+  artifactKey: Guid(428be05d34abfe54a8c051a2c09f3619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture set 3/Table texture set 3_Diffuse.png using Guid(428be05d34abfe54a8c051a2c09f3619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b0bc9c1ebe6e4cb4a7ce1b7178ed97') in 0.060571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022730 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Interactables and Doors/Mechanical arms/Mechanical arms_Height.png
+  artifactKey: Guid(07dfb7e31c1fdf0489c2232a0a9a48d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Interactables and Doors/Mechanical arms/Mechanical arms_Height.png using Guid(07dfb7e31c1fdf0489c2232a0a9a48d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334c07f0b488a41e64f84b3d300338cf') in 0.057574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023563 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Interactables and Doors/Mechanical arms/Mechanical arms_Normal.png
+  artifactKey: Guid(beefad33f2b4bf74c8995d985fad4ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Interactables and Doors/Mechanical arms/Mechanical arms_Normal.png using Guid(beefad33f2b4bf74c8995d985fad4ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e4ca1a73240ea1b10cc01cdf620b707') in 0.075879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.051437 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Techware
+  artifactKey: Guid(6fda81a742391274da7288a7d5c7bf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Techware using Guid(6fda81a742391274da7288a7d5c7bf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a6177fec354692946cb4ffa4af808b') in 0.004487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.163848 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Vase/vase_grey_Normal.png
+  artifactKey: Guid(fa0e2995fd47bf546b101657db6732a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Vase/vase_grey_Normal.png using Guid(fa0e2995fd47bf546b101657db6732a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d9fd3d4372b5de7beb609dbf59340c') in 0.055748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.084220 seconds.
+  path: Assets/ScifiOfficeLite/Scene/Demo/Lightmap-3_comp_shadowmask.png
+  artifactKey: Guid(c4ee5dfe2feb7b64982263ef85870bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scene/Demo/Lightmap-3_comp_shadowmask.png using Guid(c4ee5dfe2feb7b64982263ef85870bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '138c1157481a6b7dcc752bbadd5655f5') in 0.034785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021891 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Interactables and Doors/Doors/Door 1_Emission.png
+  artifactKey: Guid(ce16c1c1af98fe74ba93ff747f3f0025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Interactables and Doors/Doors/Door 1_Emission.png using Guid(ce16c1c1af98fe74ba93ff747f3f0025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c9f662c21d97d9713d23b5c00f9f9f') in 0.022749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022799 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Vase/vase_grey_AlbedoTransparency.png
+  artifactKey: Guid(f5983fce40514a744bf90c9a4cbdfab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Vase/vase_grey_AlbedoTransparency.png using Guid(f5983fce40514a744bf90c9a4cbdfab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07bf9d4ed8df3163df61f44fc5c732e8') in 0.042688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.104525 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Carpet/Door Mat_Diffuse.png
+  artifactKey: Guid(d06e81a068524944790b02d6598f0013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Carpet/Door Mat_Diffuse.png using Guid(d06e81a068524944790b02d6598f0013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '734c7a1323d4187157c964eb2784575a') in 0.014761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015466 seconds.
+  path: Assets/ScifiOfficeLite/Scene/Demo/Lightmap-2_comp_shadowmask.png
+  artifactKey: Guid(d8aa27a5cc542e64a866e15a66c215fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scene/Demo/Lightmap-2_comp_shadowmask.png using Guid(d8aa27a5cc542e64a866e15a66c215fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7cdebbf00485f746160ce26ee5cd43') in 0.026792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.518606 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Tables/Dark Oak/Drawer Table Long Dark Oak.prefab
+  artifactKey: Guid(d9ed09438f7ef114dbd1922e839b6837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Tables/Dark Oak/Drawer Table Long Dark Oak.prefab using Guid(d9ed09438f7ef114dbd1922e839b6837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff694aa89550e4c91f8ff3474e7f52f2') in 0.377513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018027 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Tables/Grey Wood/Drawer Table Long Grey Wood Variant.prefab
+  artifactKey: Guid(9467da3bd6f41fb47a3ad39c38b9f752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Tables/Grey Wood/Drawer Table Long Grey Wood Variant.prefab using Guid(9467da3bd6f41fb47a3ad39c38b9f752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2f714722e04e04ccef2b2833e78529') in 0.056136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.318155 seconds.
+  path: Assets/ScifiOfficeLite/Scene/Demo/LightingData.asset
+  artifactKey: Guid(7d1e882f91164dd498bdf38c0f6d9ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scene/Demo/LightingData.asset using Guid(7d1e882f91164dd498bdf38c0f6d9ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a58a3870ed2d0987edf4ffc31597f0d') in 0.040632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020545 seconds.
+  path: Assets/Prefabs/Tumb.prefab
+  artifactKey: Guid(fd075a7d94f90d043990949422660e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tumb.prefab using Guid(fd075a7d94f90d043990949422660e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c35dab998c2dda53248e241da9eba82') in 0.393441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.127335 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture set 2/Table texture set 2_Maskmap.png
+  artifactKey: Guid(560a2318e8a19f449886580fc75cf796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture set 2/Table texture set 2_Maskmap.png using Guid(560a2318e8a19f449886580fc75cf796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afbdbaa76216592b49acc45c723f5cfa') in 0.040108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008837 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Materials/Chair set/Chair set T2.mat
+  artifactKey: Guid(703745f75560124488d90b7ffe522f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Materials/Chair set/Chair set T2.mat using Guid(703745f75560124488d90b7ffe522f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682e652f5e5476287a4489826d820083') in 0.154863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.204166 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Wall texture/Wall set 2/Wall_Multiset_2_Diffuse.png
+  artifactKey: Guid(52c98303f7a1fa14daca834c0f082fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Wall texture/Wall set 2/Wall_Multiset_2_Diffuse.png using Guid(52c98303f7a1fa14daca834c0f082fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c575d94231bd7959cf1d7a18a4be28b8') in 0.126659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.122064 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Chair set/Type 2/Chair Set T2_Height.png
+  artifactKey: Guid(415a0de9131268049997038edabad413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Chair set/Type 2/Chair Set T2_Height.png using Guid(415a0de9131268049997038edabad413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d634768a4060ea6331907007c1e680e') in 0.010563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028980 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture set 2
+  artifactKey: Guid(21e65b11a1a3cb243b328140fb56ddd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture set 2 using Guid(21e65b11a1a3cb243b328140fb56ddd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be5c4492f2a225fd794154de932650a8') in 0.014736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.267140 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Epoxy Paints/Epoxy Paint Diffuse.tif
+  artifactKey: Guid(248ffdaacb3f13745aba2d28e8c9c4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Epoxy Paints/Epoxy Paint Diffuse.tif using Guid(248ffdaacb3f13745aba2d28e8c9c4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49097adb210e578a1b087c53ba680caa') in 0.033623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011585 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Interactables and Doors/Mechanical arms
+  artifactKey: Guid(fefdd4a8e59fdbb42bbbd93621a144c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Interactables and Doors/Mechanical arms using Guid(fefdd4a8e59fdbb42bbbd93621a144c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed2d26a3cf3d9635edeeb7a6c386556e') in 0.004432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.085811 seconds.
+  path: Assets/ScifiOfficeLite/Scene/Demo.unity
+  artifactKey: Guid(98f89f3b6ce2800479ea621b4ad1bad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scene/Demo.unity using Guid(98f89f3b6ce2800479ea621b4ad1bad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8de34109b99f6fd6e057699c9e99cfc') in 0.005077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030241 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Sci-Fi Environment/SciFiDoor.FBX
+  artifactKey: Guid(0be2d09ff087c6240b1805135c8628bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Sci-Fi Environment/SciFiDoor.FBX using Guid(0be2d09ff087c6240b1805135c8628bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c845f7aea099d320894edb355a4bc351') in 0.050786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047199 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Chair set/Type 2
+  artifactKey: Guid(89b058a34e1830b42a137e1d4e3a1d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Chair set/Type 2 using Guid(89b058a34e1830b42a137e1d4e3a1d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2cb49705a38c2563dac3c3c1af5422') in 0.004600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029224 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture Set 5/Table texture set 5_Maskmap.png
+  artifactKey: Guid(261cd726d50fcbf4a801a5fc8cea0e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture Set 5/Table texture set 5_Maskmap.png using Guid(261cd726d50fcbf4a801a5fc8cea0e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af8dec64f5e02af7ad43cb301bdcce4') in 0.083669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040913 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Set Glass/Table Glass_Diffuse.png
+  artifactKey: Guid(306a88abae0890849890ec9e7428de94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Set Glass/Table Glass_Diffuse.png using Guid(306a88abae0890849890ec9e7428de94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc83df5f131bcb3892a2f7a69ddc4b70') in 0.037489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.357903 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Props
+  artifactKey: Guid(6ae0cbee4832259478da6d08ba1edea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Props using Guid(6ae0cbee4832259478da6d08ba1edea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac61b2d3a6c3af453474bbbeeb5ada6') in 0.004563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.187759 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Set Glass/Table Glass_Maskmap.png
+  artifactKey: Guid(52a1a9adada4ee2478177240b01d4d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Set Glass/Table Glass_Maskmap.png using Guid(52a1a9adada4ee2478177240b01d4d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f4c1fdafdf9edd932fdd2b6f488cb3') in 0.012207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.193551 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Props/tray_1001_MetallicSmoothness.png
+  artifactKey: Guid(8c5726c3debe32b4db7487ba08cc2ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Props/tray_1001_MetallicSmoothness.png using Guid(8c5726c3debe32b4db7487ba08cc2ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb2b27c0112a5eb4f9577a0ec9bdb5a') in 0.036221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028198 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Lighting/Ceiling Lights/2D/Ceiling Light Bright.prefab
+  artifactKey: Guid(ddfc1292959bce64f8c5c758157712f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Lighting/Ceiling Lights/2D/Ceiling Light Bright.prefab using Guid(ddfc1292959bce64f8c5c758157712f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c210192bec2ddbd2ed951e63ad392e2') in 0.153227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042351 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Wall texture/Wall set 2/Wall_Multiset_2_Height.png
+  artifactKey: Guid(c0d0176d5e5f5644ea2401ed724ef8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Wall texture/Wall set 2/Wall_Multiset_2_Height.png using Guid(c0d0176d5e5f5644ea2401ed724ef8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfae6bb9dca8fa5b764fcf5a7ce5131a') in 0.113277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.086950 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Tables/Grey Wood
+  artifactKey: Guid(6248a98010f62184fa6a79db15b7517d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Tables/Grey Wood using Guid(6248a98010f62184fa6a79db15b7517d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff6618eb382a12b75faa64362f71c3f') in 0.005999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015815 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Props/tray_1001_Normal.png
+  artifactKey: Guid(0bdf20db475ca944b8ad8382e82a02f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Props/tray_1001_Normal.png using Guid(0bdf20db475ca944b8ad8382e82a02f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26cb8ac18e2f709065624ce32986e826') in 0.017264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.057992 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Materials/Chair set/Chair set.mat
+  artifactKey: Guid(b1cc28be108c49a4bb62461e67a3bc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Materials/Chair set/Chair set.mat using Guid(b1cc28be108c49a4bb62461e67a3bc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11442b4035eeaac76b9d1d37d3508940') in 0.173584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022064 seconds.
+  path: Assets/ScifiOfficeLite/Scene/Demo/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(dafbb33ff9aa98f45aea50842b0092b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scene/Demo/Lightmap-0_comp_shadowmask.png using Guid(dafbb33ff9aa98f45aea50842b0092b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede936b14fcd13a6151c4e570fbd6adb') in 0.009831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042968 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Set Glass/Table Glass_Normal.png
+  artifactKey: Guid(bfde01976dacdcd4288b56a96973d4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Set Glass/Table Glass_Normal.png using Guid(bfde01976dacdcd4288b56a96973d4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '819d30a6ef311c0836e84baa775e89b1') in 0.017538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039138 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture Set 5/Table texture set 5_Normal.png
+  artifactKey: Guid(e897ad287b2fa41439e72876579222b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture Set 5/Table texture set 5_Normal.png using Guid(e897ad287b2fa41439e72876579222b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4960da17ddd03b0a6f750828f06db838') in 0.066329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000668 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Tables/Metal
+  artifactKey: Guid(172a7682d8cad3747ad347eb18a5a867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Tables/Metal using Guid(172a7682d8cad3747ad347eb18a5a867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '949249d1e358e51dce640998d03ddf31') in 0.004498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.076255 seconds.
+  path: Assets/ScifiOfficeLite/Sci-Fi Office Pack Documentation.pdf
+  artifactKey: Guid(933c32eeb77eda845928ded211a56cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Sci-Fi Office Pack Documentation.pdf using Guid(933c32eeb77eda845928ded211a56cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '706adb9b49b0b72977500bf3822d034e') in 0.008358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033610 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture Set 4/Table texture set 4_Maskmap.png
+  artifactKey: Guid(d3ad94fc5aded3a4c89c3071f437fa5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture Set 4/Table texture set 4_Maskmap.png using Guid(d3ad94fc5aded3a4c89c3071f437fa5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e027ef718f74200a776eeaf14fc80c') in 0.068426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.101344 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Materials/Interactables and Doors/Doors/Grey Door.mat
+  artifactKey: Guid(f9582d594262a05479fe437e0ebc4957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Materials/Interactables and Doors/Doors/Grey Door.mat using Guid(f9582d594262a05479fe437e0ebc4957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035c395282ca5850698f6a5bb6335c53') in 0.017965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.130397 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Interactables and Doors/Doors/Door 1_Diffuse.png
+  artifactKey: Guid(35ffd15d30d96e345af52ff165b4d66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Interactables and Doors/Doors/Door 1_Diffuse.png using Guid(35ffd15d30d96e345af52ff165b4d66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e70a3d6622cd571e6fa6c0c9b3ac9b') in 0.011893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022109 seconds.
+  path: Assets/ScifiOfficeLite/Scene/Demo/Lightmap-1_comp_dir.png
+  artifactKey: Guid(df4828a7778d2e0419350647efe5bf6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scene/Demo/Lightmap-1_comp_dir.png using Guid(df4828a7778d2e0419350647efe5bf6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c4179d23242efbac0a79cf17c50e4c') in 0.030621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009594 seconds.
+  path: Assets/ScifiOfficeLite/Scene/Demo/Lightmap-2_comp_dir.png
+  artifactKey: Guid(f31541c398376504cb81e355e497d0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scene/Demo/Lightmap-2_comp_dir.png using Guid(f31541c398376504cb81e355e497d0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091156fc7b9307e58b0ec0d8de4b8e64') in 0.028106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.181319 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture Set 4
+  artifactKey: Guid(5f426edfed0536b41a389f4e00207097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture Set 4 using Guid(5f426edfed0536b41a389f4e00207097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ddbcbc253a431609c5b2e8d0780c32') in 0.004759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008214 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Tables/Metal/Table Metal Variant.prefab
+  artifactKey: Guid(d50a3e9b50b5f0f4b9c69fe84036a6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Tables/Metal/Table Metal Variant.prefab using Guid(d50a3e9b50b5f0f4b9c69fe84036a6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09cb42f43e64ba074841539ea44c64d7') in 0.252891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011922 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Concrete Floor
+  artifactKey: Guid(bb029fef9be3cb2459b57807a0a8e30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Concrete Floor using Guid(bb029fef9be3cb2459b57807a0a8e30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2cb7eb7870d86dd6435ca6c7d3ca804') in 0.005010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.085462 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Props/crates_1001_Normal.png
+  artifactKey: Guid(cf1d5cde7a313b049a6bf235daba4334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Props/crates_1001_Normal.png using Guid(cf1d5cde7a313b049a6bf235daba4334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2fb90f8505857d9ea283ad13965e29') in 0.019156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.084684 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Lighting/Ceiling Lights/2D
+  artifactKey: Guid(a966283a628910941b403a29a841155e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Lighting/Ceiling Lights/2D using Guid(a966283a628910941b403a29a841155e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5684665af3bc368abe4fd84f1db048a') in 0.004591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.063025 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Chair set
+  artifactKey: Guid(bf0e5631f8ab8c347b71314e274e8057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Chair set using Guid(bf0e5631f8ab8c347b71314e274e8057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af2794f4f140c50376de9750c357df8') in 0.001381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000657 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Techware/Keyboard props texture
+  artifactKey: Guid(7a971046f25d6ab4d9dd995dc9457786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Techware/Keyboard props texture using Guid(7a971046f25d6ab4d9dd995dc9457786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ac058e374512622f5c6c3ed3a332ed') in 0.004765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007978 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Props/shelf_1001_Normal.png
+  artifactKey: Guid(3958571e77c7aea4e94951d5ae88a571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Props/shelf_1001_Normal.png using Guid(3958571e77c7aea4e94951d5ae88a571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f343ada01c7260b489bab850d4b1493') in 0.016478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.212886 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture set 3/Table texture set 3_Normal.png
+  artifactKey: Guid(4f73e43bff490cf48978a095cc9dcae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture set 3/Table texture set 3_Normal.png using Guid(4f73e43bff490cf48978a095cc9dcae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3549821efbdef9037f0048d33af2dc29') in 0.013373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023856 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture set 3/Table texture set 3_Height.png
+  artifactKey: Guid(1a7a4962f5baa8c4e9c9464d080d8d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture set 3/Table texture set 3_Height.png using Guid(1a7a4962f5baa8c4e9c9464d080d8d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d78216470b54f1b228fdfda6e375eb7') in 0.010741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023420 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Props/crates_MaskMap.png
+  artifactKey: Guid(e2dc11afc7fca29478cf2ac37a34ef45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Props/crates_MaskMap.png using Guid(e2dc11afc7fca29478cf2ac37a34ef45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d7d9a6b215338d6034e6009d6da1bb') in 0.010207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.079798 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Wall texture/Wall set 2/Wall_Multiset_2_Maskmap.png
+  artifactKey: Guid(ad06a037a3a8b464d8a2e9b1a739c8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Wall texture/Wall set 2/Wall_Multiset_2_Maskmap.png using Guid(ad06a037a3a8b464d8a2e9b1a739c8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd2b4a86335812dbd27227a4bb4a387') in 0.235296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012592 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Office Interior/Carpet/Carpet 12.FBX
+  artifactKey: Guid(24e5172242125aa45925cd25104a5d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Office Interior/Carpet/Carpet 12.FBX using Guid(24e5172242125aa45925cd25104a5d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce73c3980fb03e1ab0216c28ae5feeea') in 0.090505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043753 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture set 2/Table texture set 2_Height.png
+  artifactKey: Guid(f7c242854ebf7c64eb05b62168009c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture set 2/Table texture set 2_Height.png using Guid(f7c242854ebf7c64eb05b62168009c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20c23ecb9a7394ab83f0ca468a0ddf2') in 0.034246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011200 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Tables/Blue Plastic
+  artifactKey: Guid(c84719a45801c1c4691a9565d607cd4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Tables/Blue Plastic using Guid(c84719a45801c1c4691a9565d607cd4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760a683ec9388691ec301cf62f521ea0') in 0.004747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039481 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Interactables and Doors/Doors/Door 1_Normal.png
+  artifactKey: Guid(c87f3928579a69b42b65feb8c11335bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Interactables and Doors/Doors/Door 1_Normal.png using Guid(c87f3928579a69b42b65feb8c11335bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2b240785ec70e3197d5baecc66b24a') in 0.012976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.137535 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Carpet/Door Mat_Maskmap.png
+  artifactKey: Guid(df16961d24522094d883fac3271a5879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Carpet/Door Mat_Maskmap.png using Guid(df16961d24522094d883fac3271a5879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f23b39cb2fa20047dbe1f12b4b41fd3') in 0.037954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.089006 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Chair set/Chair Set _Diffuse.png
+  artifactKey: Guid(4d27daab1eca26945924e29db7972f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Chair set/Chair Set _Diffuse.png using Guid(4d27daab1eca26945924e29db7972f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f0bab76ae5a592c7fd3051dca3bb0ff') in 0.018497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033742 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Techware/Keyboard props texture/Keyboard Props_Normal.png
+  artifactKey: Guid(ec75dfe1d08f0e845b031ed1962c38bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Techware/Keyboard props texture/Keyboard Props_Normal.png using Guid(ec75dfe1d08f0e845b031ed1962c38bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ce328bc12e4a751f17cfa767bdd447') in 0.062604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012808 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Concrete Floor/Concrete Floor Polished AO.tif
+  artifactKey: Guid(323a2e8fd0717dd4bbc6125b58d37c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Concrete Floor/Concrete Floor Polished AO.tif using Guid(323a2e8fd0717dd4bbc6125b58d37c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e20acfbe4858b0c08af35c5870f39a') in 0.021714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Materials/Chair set
+  artifactKey: Guid(5e681572bd68ae643a86211473405927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Materials/Chair set using Guid(5e681572bd68ae643a86211473405927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0121b7ddb4fa4d715055148e5a4ce615') in 0.001321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002642 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Props/shelf_1001_AlbedoTransparency.png
+  artifactKey: Guid(a78e3cd19bb3c1a4083d397984611823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Props/shelf_1001_AlbedoTransparency.png using Guid(a78e3cd19bb3c1a4083d397984611823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5702a7a59843cc1159c87358f65984') in 0.019699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.126994 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Techware/Techware_Diffuse.png
+  artifactKey: Guid(d42ed7b358012eb4cadcee751c2039f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Techware/Techware_Diffuse.png using Guid(d42ed7b358012eb4cadcee751c2039f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df0b97b387d5b89c794e9046aaf7f20') in 0.069278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000789 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Interactables and Doors/Doors
+  artifactKey: Guid(e2994d4b5e3cf964b829d062881dda6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Interactables and Doors/Doors using Guid(e2994d4b5e3cf964b829d062881dda6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d81b9205d3a3d915f4103c66d6483c5') in 0.013403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.061711 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Interactables and Doors/Mechanical arms/Mechanical arms_Maskmap.png
+  artifactKey: Guid(77150a14bc2d9f648bfb32d5a905e71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Interactables and Doors/Mechanical arms/Mechanical arms_Maskmap.png using Guid(77150a14bc2d9f648bfb32d5a905e71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f67df20bcb856a9bee459043a01bbc67') in 0.066246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032857 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Tables/White Wood/Drawer Table Long White Wood Variant.prefab
+  artifactKey: Guid(0fc223096406f3d4d964af094cc016ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Tables/White Wood/Drawer Table Long White Wood Variant.prefab using Guid(0fc223096406f3d4d964af094cc016ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf8fbb2e4f1864ce9225e6a0439f851') in 0.068407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ScifiOfficeLite/Scene/DemoSettings.lighting
+  artifactKey: Guid(c1787e8e67ae3684fbf938d51ff81636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scene/DemoSettings.lighting using Guid(c1787e8e67ae3684fbf938d51ff81636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a43c33ded19aee0ac3f89abea3f115') in 0.006318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture set 3
+  artifactKey: Guid(c399d0ccbe0ff5d47ab0f08d79257a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture set 3 using Guid(c399d0ccbe0ff5d47ab0f08d79257a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a43083096654f475c61c39840c791f9') in 0.029421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025289 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Props/tray AO.png
+  artifactKey: Guid(05d2ac4a69b1b11409b8e329c874f14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Props/tray AO.png using Guid(05d2ac4a69b1b11409b8e329c874f14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0398a605232c56f8958b81f5588e354') in 0.037551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011400 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Techware/Techware_Height.png
+  artifactKey: Guid(975e257f44c497d479c69e023fbb5c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Techware/Techware_Height.png using Guid(975e257f44c497d479c69e023fbb5c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917c3157b4e725e2d587d8aaa1ee377f') in 0.039858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007863 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Wall texture/Wall set 2
+  artifactKey: Guid(6f97043e3d881a54e94aa1a04c082f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Wall texture/Wall set 2 using Guid(6f97043e3d881a54e94aa1a04c082f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c932f2e356321b873455c1d3e079d35') in 0.012949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017295 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Lights
+  artifactKey: Guid(e8c0c129c8393ff4fa384653205ff904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Lights using Guid(e8c0c129c8393ff4fa384653205ff904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85617dcb12663f447229e804acc174ec') in 0.004405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.143838 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Interactables and Doors/Doors/Door 1 Masked Map.tif
+  artifactKey: Guid(db329997a13d2f144b29420fa654fb0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Interactables and Doors/Doors/Door 1 Masked Map.tif using Guid(db329997a13d2f144b29420fa654fb0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a638a3a86aceef493908702d60a1a6d1') in 0.083007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013059 seconds.
+  path: Assets/ScifiOfficeLite/Scene/Demo/Lightmap-0_comp_dir.png
+  artifactKey: Guid(62d6e8b1c0cc02e43b523c2d3ed432d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scene/Demo/Lightmap-0_comp_dir.png using Guid(62d6e8b1c0cc02e43b523c2d3ed432d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef7f286d5b435cea02f810744de66f5f') in 0.029894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.079197 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Carpet
+  artifactKey: Guid(b207a947c2a0dc6429df5f2224cb6106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Carpet using Guid(b207a947c2a0dc6429df5f2224cb6106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8dc9123ffe9d0cd2f4dd904682240c') in 0.001391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043468 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Props/crates  AO.png
+  artifactKey: Guid(32676eeed124d0f4c8b42f23d01d79dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Props/crates  AO.png using Guid(32676eeed124d0f4c8b42f23d01d79dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae90c59f7a6fa39c95c6e29fb531dd0') in 0.027537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039307 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Props/tray_1001_AlbedoTransparency.png
+  artifactKey: Guid(80f270783be6d7f48b3b83955102e13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Props/tray_1001_AlbedoTransparency.png using Guid(80f270783be6d7f48b3b83955102e13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c519368d0bacd5e79c954884a028ca') in 0.015646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019841 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Office Interior/Carpet/Carpet 9.FBX
+  artifactKey: Guid(ff54a0654963bc34296426d8088a649f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Office Interior/Carpet/Carpet 9.FBX using Guid(ff54a0654963bc34296426d8088a649f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83690196d9f65f9c43d4b4148aa90b6') in 0.362026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009228 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Wall texture/wall set 1
+  artifactKey: Guid(14ddfdaab9118da47b22b3a8e00f624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Wall texture/wall set 1 using Guid(14ddfdaab9118da47b22b3a8e00f624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091c33865e50d0fc507ad253186474a3') in 0.004707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.054835 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture set 1/Table texture set 1_Height.png
+  artifactKey: Guid(3bf52344b90360a49960f4225e9d5a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture set 1/Table texture set 1_Height.png using Guid(3bf52344b90360a49960f4225e9d5a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f8a6e3dd48e442d90eea74ba4e3078') in 0.010769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.066328 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Concrete Floor/Concrete Floor Polished Diffuse.tif
+  artifactKey: Guid(400e5a43dd35c1f49840ed1b6354138c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Concrete Floor/Concrete Floor Polished Diffuse.tif using Guid(400e5a43dd35c1f49840ed1b6354138c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd35fb2cddf9ea179ec7f431a8db6e49') in 0.026728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.091955 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Concrete Floor/Concrete Floor Polished Normal.tif
+  artifactKey: Guid(954bb29f81b65864e85a3f5aaf6854dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Concrete Floor/Concrete Floor Polished Normal.tif using Guid(954bb29f81b65864e85a3f5aaf6854dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589d44495168dd4a0492ae0d11b21f30') in 0.040175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002503 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Materials/Ground Mats/Epoxy/Epoxy Ground 20m.mat
+  artifactKey: Guid(8deb5a21c783e7e469134e16e01686d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Materials/Ground Mats/Epoxy/Epoxy Ground 20m.mat using Guid(8deb5a21c783e7e469134e16e01686d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e50e8afbb1ed0d394bac87d0a7e430f') in 0.058775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.260619 seconds.
+  path: Assets/ScifiOfficeLite/Scene/Demo/Lightmap-1_comp_shadowmask.png
+  artifactKey: Guid(3d156b3f147ccc64184d59ab1ea838d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scene/Demo/Lightmap-1_comp_shadowmask.png using Guid(3d156b3f147ccc64184d59ab1ea838d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '433be27974563a61d909b264e346777e') in 0.026449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015074 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Chair set/Chair Set _Height.png
+  artifactKey: Guid(0dd885a1f5be205438d2c99abbaeec74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Chair set/Chair Set _Height.png using Guid(0dd885a1f5be205438d2c99abbaeec74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea300367e5a35b215a96f1fcba90fb1') in 0.010734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040721 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture Set 4/Table texture set 4_Normal.png
+  artifactKey: Guid(c027d43eb0d92f74789368a43676fec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture Set 4/Table texture set 4_Normal.png using Guid(c027d43eb0d92f74789368a43676fec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f217ab4e28e2675565b10b1b665a364') in 0.011902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037101 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture Set 5/Table texture set 5_Diffuse.png
+  artifactKey: Guid(cdee4335cb3be3c4a8bf68e818113628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture Set 5/Table texture set 5_Diffuse.png using Guid(cdee4335cb3be3c4a8bf68e818113628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '345f46c5d952c36a83e2a9369aee541e') in 0.039132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.119732 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Carpet/Door Mat_Normal.png
+  artifactKey: Guid(b8564ed44837ce7459103a6a81e38c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Carpet/Door Mat_Normal.png using Guid(b8564ed44837ce7459103a6a81e38c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d3f5fed3bffe9a1ab4697dcfd66cb4') in 0.031565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.067612 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Props/crates_1001_MetallicSmoothness.png
+  artifactKey: Guid(bd875ce012fdaf74eb6891b49786a43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Props/crates_1001_MetallicSmoothness.png using Guid(bd875ce012fdaf74eb6891b49786a43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a94b57d53b06a19493cc095db47bfb') in 0.104519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.053115 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Props/crates_1001_AlbedoTransparency.png
+  artifactKey: Guid(3161bb7b82d620c48958d0a5f216ead7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Props/crates_1001_AlbedoTransparency.png using Guid(3161bb7b82d620c48958d0a5f216ead7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5890bf8344c12dcf20309ae347bee6bb') in 0.015348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032189 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture Set 5/Table texture set 5 brown_Diffuse.png
+  artifactKey: Guid(8fc1776a014b83d48abfe5221d986e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture Set 5/Table texture set 5 brown_Diffuse.png using Guid(8fc1776a014b83d48abfe5221d986e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a90accb45349ff67aaed48a1d24b97a') in 0.047594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000605 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Wall texture
+  artifactKey: Guid(0a205c6927740eb42a02d26b85e137f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Wall texture using Guid(0a205c6927740eb42a02d26b85e137f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6b077461edb878b279e03f6c2dbb94b') in 0.009008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038283 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Wall texture/wall set 1/Wall multiset_Diffuse.png
+  artifactKey: Guid(512b915f03ab75543a4daa1c71b7a8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Wall texture/wall set 1/Wall multiset_Diffuse.png using Guid(512b915f03ab75543a4daa1c71b7a8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c24ea45a5e540359cd174f0a1c8523') in 0.109764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035758 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture set 1/Table texture set 1_Diffuse.png
+  artifactKey: Guid(1b42c5ebe64ae0547a8a4bc2dfa26f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture set 1/Table texture set 1_Diffuse.png using Guid(1b42c5ebe64ae0547a8a4bc2dfa26f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49dda6a4e3266f0e795f4c31963037f7') in 0.019581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020449 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Wall texture/wall set 1/Wall multiset_Height.png
+  artifactKey: Guid(5fd74c36cc1c439458fb45767b20a36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Wall texture/wall set 1/Wall multiset_Height.png using Guid(5fd74c36cc1c439458fb45767b20a36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61bb4a312d5c850c8bcea98fb4154a8') in 0.120946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007612 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Materials/Ground Mats/Concrete/Concrete Ground 20m.mat
+  artifactKey: Guid(9de4200706addc14b9e60ffb7b15caad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Materials/Ground Mats/Concrete/Concrete Ground 20m.mat using Guid(9de4200706addc14b9e60ffb7b15caad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c1526ba32c43fc800453096f4461ce') in 0.026523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032234 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture set 2/Table texture set 2_Normal.png
+  artifactKey: Guid(dddc0f038ce7f5641b05cf7d54947404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture set 2/Table texture set 2_Normal.png using Guid(dddc0f038ce7f5641b05cf7d54947404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e1839ea59db72dbfcfbf2b537940a9') in 0.012275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.125613 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Carpet/Carpet 2_Normal.png
+  artifactKey: Guid(2c84b1a3a88a01d4393c64fb393b3a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Carpet/Carpet 2_Normal.png using Guid(2c84b1a3a88a01d4393c64fb393b3a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfff613486a926887769f3369bf76817') in 0.047968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.116163 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Vase
+  artifactKey: Guid(0c07108d9edd8e04ab114391838b2d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Vase using Guid(0c07108d9edd8e04ab114391838b2d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfac34cf0eb54333a154d9fff861d0ba') in 0.018941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020326 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Office Interior/Carpet/Carpet 11.FBX
+  artifactKey: Guid(377835cb3fa2b9141894051f66db8b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Office Interior/Carpet/Carpet 11.FBX using Guid(377835cb3fa2b9141894051f66db8b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76dea497f9e3db065b2fac37833a2acb') in 0.065950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024662 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Chair set/Type 2/Chair Set T2_Diffuse.png
+  artifactKey: Guid(b7d092ddcdafe1749837e0bdd0e46e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Chair set/Type 2/Chair Set T2_Diffuse.png using Guid(b7d092ddcdafe1749837e0bdd0e46e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '977267026236f7f885929fdcd50bb48c') in 0.011568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.094971 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Techware/Keyboard props texture/Keyboard Props_Maskmap.png
+  artifactKey: Guid(7d4d2c52a21e0ca47b62474a7f9f6e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Techware/Keyboard props texture/Keyboard Props_Maskmap.png using Guid(7d4d2c52a21e0ca47b62474a7f9f6e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3558bfa6d179157bb99cd469cd3ef8e9') in 0.097965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043645 seconds.
+  path: Assets/ScifiOfficeLite/Scripts/DemoFirstPersonController.cs
+  artifactKey: Guid(1ecdae056ad6f954496b395d7469d96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scripts/DemoFirstPersonController.cs using Guid(1ecdae056ad6f954496b395d7469d96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b60803f9ea04ac6fad2ee1effc28cc') in 0.067877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023578 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55ccaa32d8e5c1de03c07a5412c8c3c') in 0.004373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026605 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Lights/Ceiling_lights_lo_Diffuse.png
+  artifactKey: Guid(414a7e3e985aed84aa470b03519e2584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Lights/Ceiling_lights_lo_Diffuse.png using Guid(414a7e3e985aed84aa470b03519e2584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4df756ab646e8d3eb70135e9d1a308') in 0.011524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016392 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Epoxy Paints/Epoxy Paint Normal.tif
+  artifactKey: Guid(974c1dc8085d20840a28b626d8e406dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Epoxy Paints/Epoxy Paint Normal.tif using Guid(974c1dc8085d20840a28b626d8e406dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c114c734cfc600d3c73a040c61c7435d') in 0.011557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.075493 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Carpet/Door Mat_Height.png
+  artifactKey: Guid(2bf75c18fdf5eb04faf6b8a131a649a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Carpet/Door Mat_Height.png using Guid(2bf75c18fdf5eb04faf6b8a131a649a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e22c5b4af074d0b1277159fccf8331') in 0.013579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015087 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Concrete Floor/Concrete Floor Polished Roughness.tif
+  artifactKey: Guid(e19345199d4a0964bb66cec7a1ff0908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Concrete Floor/Concrete Floor Polished Roughness.tif using Guid(e19345199d4a0964bb66cec7a1ff0908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27587b1f181384e414d16cd2feddf9f') in 0.019137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039465 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Chair set/Type 2/Chair Set T2_Normal.png
+  artifactKey: Guid(837d1e880ba7c194fb6455c2e623be88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Chair set/Type 2/Chair Set T2_Normal.png using Guid(837d1e880ba7c194fb6455c2e623be88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c26820b867e611bb24514ea3dd127d') in 0.025867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043118 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Techware/Keyboard props texture/Keyboard Props_Height.png
+  artifactKey: Guid(94a07b862566eab49a59fdb9f8b95753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Techware/Keyboard props texture/Keyboard Props_Height.png using Guid(94a07b862566eab49a59fdb9f8b95753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8bd9ee0e14d4d2c1ca3b5fea8fdbf2e') in 0.075974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030673 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Vase/vase_grey_MetallicSmoothness.png
+  artifactKey: Guid(df0c825182ab08a43af8a73b9269d7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Vase/vase_grey_MetallicSmoothness.png using Guid(df0c825182ab08a43af8a73b9269d7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1330c1abf0b9bd9573aa88ede580ce81') in 0.050083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018903 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Techware/Techware_Normal.png
+  artifactKey: Guid(feb6553c14d1156418360e77ec9e772b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Techware/Techware_Normal.png using Guid(feb6553c14d1156418360e77ec9e772b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0d965910db8e84257fd5712743c89e') in 0.067735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019022 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Office Interior/Carpet/Carpet 13.FBX
+  artifactKey: Guid(7b04682a6ca2fb3469b49ad8f05c9930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Office Interior/Carpet/Carpet 13.FBX using Guid(7b04682a6ca2fb3469b49ad8f05c9930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c102f3db6575d3c0855409297bcf05') in 0.080104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036911 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Props/shelf_MaskMap.png
+  artifactKey: Guid(90611c0968b9db143b1f58be5a4595b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Props/shelf_MaskMap.png using Guid(90611c0968b9db143b1f58be5a4595b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823f2c7fbb94fb287491cb29fcec08c8') in 0.016989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.100917 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Wall texture/wall set 1/Wall multiset_Normal.png
+  artifactKey: Guid(4a23aba143be8f642aee7b62a5c8ce7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Wall texture/wall set 1/Wall multiset_Normal.png using Guid(4a23aba143be8f642aee7b62a5c8ce7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c1380d153619560f8bfe9722fd1549d') in 0.221027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.220923 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Concrete Floor/Concrete Floor Polished Height.tif
+  artifactKey: Guid(08ca04d11de0b984ba12a9b9e7b460d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Concrete Floor/Concrete Floor Polished Height.tif using Guid(08ca04d11de0b984ba12a9b9e7b460d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68c71e3331b97833af28180227ee89e') in 0.010393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000612 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Epoxy Paints
+  artifactKey: Guid(2093c4f15a18a684b982d2786516747f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Epoxy Paints using Guid(2093c4f15a18a684b982d2786516747f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7da24c5004bcf808cc0ea2de50a4b7') in 0.004485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009349 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Tables/Blue Plastic/Drawer Table Long Blue Plastic Variant.prefab
+  artifactKey: Guid(16f915d1f07f10f4dad53e9e66e98afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Tables/Blue Plastic/Drawer Table Long Blue Plastic Variant.prefab using Guid(16f915d1f07f10f4dad53e9e66e98afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392eb55cb16f7b5078fda6f6caf1bbcf') in 0.090686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050970 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture Set 5/Table texture set 5_Height.png
+  artifactKey: Guid(db88d7b1144e49049b29db87f9c8f060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture Set 5/Table texture set 5_Height.png using Guid(db88d7b1144e49049b29db87f9c8f060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a7dc3ccc6c572c91b6363bb5863188') in 0.011544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.850105 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture set 1/Table texture set 1_Maskmap.png
+  artifactKey: Guid(73bd44cb9023e4e43b95f96f01d472b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture set 1/Table texture set 1_Maskmap.png using Guid(73bd44cb9023e4e43b95f96f01d472b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63abfd2b76e2e56c5b580aec6fb8f063') in 0.070513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.078390 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Lights/Ceiling_lights_lo_Emissive.png
+  artifactKey: Guid(a64c20280fdd6d847a9098d131028e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Lights/Ceiling_lights_lo_Emissive.png using Guid(a64c20280fdd6d847a9098d131028e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bbecd86ec82f29f70746559d2f086aa') in 0.010512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028144 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Props/shelf.png
+  artifactKey: Guid(508ec11bfb22a3f45b5b45dfe43de7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Props/shelf.png using Guid(508ec11bfb22a3f45b5b45dfe43de7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9babdb38678adc03aaa6ee7b0d4ed1ba') in 0.066750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.057800 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Props/book AO.png
+  artifactKey: Guid(9c6bb4fb5dcb63c4a8826b36c19b69e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Props/book AO.png using Guid(9c6bb4fb5dcb63c4a8826b36c19b69e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1e971668600c72b53c937945423816') in 0.023549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000596 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground
+  artifactKey: Guid(29cc3f6412ad79f4c85cb4da48a86fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground using Guid(29cc3f6412ad79f4c85cb4da48a86fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad826571a20987c2ecb1f32cf01d9270') in 0.026593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021233 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Lighting/Ceiling Lights/2D/Ceiling Light.prefab
+  artifactKey: Guid(ebb3c85b58baeef44825d9dcc11dc781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Lighting/Ceiling Lights/2D/Ceiling Light.prefab using Guid(ebb3c85b58baeef44825d9dcc11dc781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d435198fc181660d1051bf89abb75e7') in 0.081284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.499715 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture Set 4/Table texture set 4_Diffuse.png
+  artifactKey: Guid(1b62b342c7f04f44ba154fde6139e2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture Set 4/Table texture set 4_Diffuse.png using Guid(1b62b342c7f04f44ba154fde6139e2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f0846ce21322d154e0b486fe9932e8') in 0.010748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.080357 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture set 1/Table texture set 1 V2_Diffuse.png
+  artifactKey: Guid(828adfde60033c54ab9e8170800ab07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture set 1/Table texture set 1 V2_Diffuse.png using Guid(828adfde60033c54ab9e8170800ab07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25cde34b10f1ce8fea173727e2d83b3e') in 0.043564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023806 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Techware/Keyboard props texture/Keyboard Props_Diffuse.png
+  artifactKey: Guid(6bca6da117a646144a04476fbc898b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Techware/Keyboard props texture/Keyboard Props_Diffuse.png using Guid(6bca6da117a646144a04476fbc898b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624bd59af556c62a34a97d37cdff89fe') in 0.039280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040229 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture set 2/Table texture set 2_Diffuse.png
+  artifactKey: Guid(f718bbb7b16005043be808980df73dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Texture set 2/Table texture set 2_Diffuse.png using Guid(f718bbb7b16005043be808980df73dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9295a924cc7d11368de99de7e1a3886') in 0.095558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.113360 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Chair set/Chair Set _Maskmap.png
+  artifactKey: Guid(f611f51936f9435478edbfe05dca2ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Chair set/Chair Set _Maskmap.png using Guid(f611f51936f9435478edbfe05dca2ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e042ee20db102e05a91ddc4dad00bc') in 0.014524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034983 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Tables/White Wood/Table White Wood Variant.prefab
+  artifactKey: Guid(e69eb1afde9550f4b83fa3d849eb2aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Tables/White Wood/Table White Wood Variant.prefab using Guid(e69eb1afde9550f4b83fa3d849eb2aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b884a406e3819d323704c69dd9007a80') in 0.038796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.072539 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Carpet/Carpet 2_Maskmap.png
+  artifactKey: Guid(5eee7e57432a3a1448a1a59984aae992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Carpet/Carpet 2_Maskmap.png using Guid(5eee7e57432a3a1448a1a59984aae992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8084576a2bc7756171325e275c5f9bb8') in 0.027863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019581 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Set Glass/Table Glass_Height.png
+  artifactKey: Guid(d5777b1e62429574fa6f523ce668e052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set/Table Set Glass/Table Glass_Height.png using Guid(d5777b1e62429574fa6f523ce668e052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '867929c6316cf97c8686a01e55df1d6f') in 0.010422 seconds 
